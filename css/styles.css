@@ -1,79 +1,128 @@
 html {
-    font-size: 62.5%;
-    /* 1 rem = 10px; 10px/16px = 62.5% */
+  font-size: 62.5%;
+  /* 1 rem = 10px; 10px/16px = 62.5% */
 }
 body {
-    font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .siteCardGroup {
-    position: relative;
+  position: relative;
+  padding: 0 5rem;
 }
 .cardFrame {
-    border: 1px solid #aaa;
-    width: 40rem;
-    height: 12rem;
-    position: absolute;
-    top: 7rem;
-    background-color: #aaa;
-    z-index: -1000;
+  border: 1px solid #aaa;
+  width: 40rem;
+  height: 12rem;
+  position: absolute;
+  top: 7rem;
+  background-color: #aaa;
+  z-index: -1000;
 }
 .frameHeader {
-    text-align: right;
-    color: #fff;
-    padding: 5px 2rem;
-    font-size: 1.5rem;
+  text-align: right;
+  color: #fff;
+  padding: 5px 2rem;
+  font-size: 1.5rem;
 }
 .phoneIcon {
-    display: block;
-    text-indent: -9999px;
-    width: 2rem;
-    height: auto;
-    background-size: 100px 82px;
-    margin-right: 1rem;
+  display: block;
+  text-indent: -9999px;
+  width: 2rem;
+  height: auto;
+  background-size: 100px 82px;
+  margin-right: 1rem;
 }
 .phoneIcon:hover {
-    fill: #303232;
+  fill: #303232;
 }
 .phoneIconText:hover {
-    color: #303232;
+  color: #303232;
 }
 
-.siteLineConector {
-    border-top: 2px dotted #aaa;
-    border-right: 2px dotted #aaa;
-    background-color: transparent;
-    height: 20rem;
-    width: 50%;
-    position: absolute;
-    top: 13rem;
-    z-index: -2000;
+.siteLineConnector {
+  border-top: 2px dotted #aaa;
+  border-right: 2px dotted #aaa;
+  background-color: transparent;
+  height: 20rem;
+  width: 50%;
+  position: absolute;
+  top: 13rem;
+  z-index: -2000;
 }
 
 .siteBio {
-    text-align: center;
+  text-align: center;
 }
 
 .siteBioText {
-    border: 1px solid #aaa;
-    display: inline-block;
-    font-size: 1.4rem;
-    padding: 2rem;
-    color: #ffffff;
-    line-height: 2rem;
-    letter-spacing: 1px;
-    background-color: #aaaaaa;
-    font-weight: 700;
+  border: 1px solid #aaa;
+  display: inline-block;
+  font-size: 1.4rem;
+  padding: 2rem;
+  color: #ffffff;
+  line-height: 2rem;
+  letter-spacing: 1px;
+  background-color: #aaaaaa;
+  font-weight: 700;
+}
+.expreinceSection {
+  padding: 0 5rem;
+}
+
+.siteExperience1 {
+  position: relative;
+}
+
+.timeLine1 {
+  border-left: 2px dotted #aaa;
+  position: relative;
+}
+
+.timeLineCircle {
+  position: absolute;
+  top: 0;
+  left: -8px;
+  border: 2px dotted #aaa;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 1rem;
+  background-color: #aaaaaa;
+}
+
+.dateLine {
+  position: absolute;
+  left: 3rem;
+  top: -1rem;
 }
 
 /* GLOBAL */
 .dBlock {
-    display: block;
+  display: block;
 }
 
 .dFlex {
-    display: flex;
+  display: flex;
 }
 
 .rounded {
-    border-radius: 4px;
+  border-radius: 4px;
+}
+
+.headline {
+  font-size: 2rem;
+  font-weight: 200;
+  line-height: 2rem;
+  letter-spacing: 1px;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.paddingLeft {
+  padding-left: 14rem;
+}
+
+.lightGreytext {
+  color: #aaa;
 }
