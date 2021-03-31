@@ -1,0 +1,79 @@
+html {
+    font-size: 62.5%;
+    /* 1 rem = 10px; 10px/16px = 62.5% */
+}
+body {
+    font-family: "Montserrat", sans-serif;
+}
+.siteCardGroup {
+    position: relative;
+}
+.cardFrame {
+    border: 1px solid #aaa;
+    width: 40rem;
+    height: 12rem;
+    position: absolute;
+    top: 7rem;
+    background-color: #aaa;
+    z-index: -1000;
+}
+.frameHeader {
+    text-align: right;
+    color: #fff;
+    padding: 5px 2rem;
+    font-size: 1.5rem;
+}
+.phoneIcon {
+    display: block;
+    text-indent: -9999px;
+    width: 2rem;
+    height: auto;
+    background-size: 100px 82px;
+    margin-right: 1rem;
+}
+.phoneIcon:hover {
+    fill: #303232;
+}
+.phoneIconText:hover {
+    color: #303232;
+}
+
+.siteLineConector {
+    border-top: 2px dotted #aaa;
+    border-right: 2px dotted #aaa;
+    background-color: transparent;
+    height: 20rem;
+    width: 50%;
+    position: absolute;
+    top: 13rem;
+    z-index: -2000;
+}
+
+.siteBio {
+    text-align: center;
+}
+
+.siteBioText {
+    border: 1px solid #aaa;
+    display: inline-block;
+    font-size: 1.4rem;
+    padding: 2rem;
+    color: #ffffff;
+    line-height: 2rem;
+    letter-spacing: 1px;
+    background-color: #aaaaaa;
+    font-weight: 700;
+}
+
+/* GLOBAL */
+.dBlock {
+    display: block;
+}
+
+.dFlex {
+    display: flex;
+}
+
+.rounded {
+    border-radius: 4px;
+}
