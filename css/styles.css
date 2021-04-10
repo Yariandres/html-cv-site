@@ -10,7 +10,7 @@ body {
     position: relative;
 }
 .cardFrame {
-    border: 1px solid #aaa;
+    /* border: 1px solid #aaa; */
     width: 40rem;
     height: 12rem;
     position: absolute;
@@ -20,7 +20,7 @@ body {
 }
 .frameHeader {
     text-align: right;
-    color: #fff;
+    color: #f0f0f0;
     padding: 5px 2rem;
     font-size: 1.5rem;
 }
@@ -51,18 +51,63 @@ body {
 }
 
 .siteBio {
-    text-align: center;
+    position: relative;
 }
 
 .siteBioText {
-    border: 1px solid #aaa;
+    /* border-right: 2px dotted #aaa; */
     display: inline-block;
     font-size: 1.4rem;
-    padding: 2rem;
-    color: #797979;
+    padding: 3rem;
+    color: #343434;
     line-height: 2rem;
     letter-spacing: 1px;
-    font-weight: 700;
+    font-weight: 200;
+    background-color: white;
+}
+
+.siteBioTextOne {
+    display: inline-block;
+    font-size: 1.6rem;
+    padding: 4rem 30rem;
+    color: #343434;
+    line-height: 3.5rem;
+    letter-spacing: 1px;
+    font-weight: 200;
+    background-color: #f9f9f9;
+}
+
+.connectorBio {
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 60%;
+    border-right: 2px dotted #aaa;
+    border-bottom: 2px dotted #aaa;
+    z-index: -1000;
+}
+
+.expHeadLine {
+}
+
+.siteEduText {
+    font-size: 1.6rem;
+    padding: 4rem 30rem;
+    color: #343434;
+    line-height: 3.5rem;
+    letter-spacing: 1px;
+    font-weight: 200;
+
+    background-color: #f9f9f9;
+}
+
+.eduItem {
+    list-style: none;
+    display: inline;
+    color: rgb(59, 59, 59);
+    background-color: #fff;
+    padding: 5px 1rem;
+    margin: 1rem 5px;
 }
 
 .siteExperience1 {
@@ -116,9 +161,25 @@ small {
 .skillWrap {
     flex: 1;
     margin: 15px 8px;
-    padding: 30px;
+    padding: 2rem 3rem;
     border-radius: 6px;
-    color: #000;
+    color: rgb(78, 78, 78);
+    /* border: 2px dotted #aaa; */
+    background-color: rgba(170, 170, 170, 0.068);
+}
+
+.skillHeading {
+    margin-bottom: 2.5rem;
+}
+
+.skillItem {
+    font-size: 1.5rem;
+    color: rgb(126, 125, 125);
+    margin: 1.5rem 0;
+}
+
+.secMain {
+    margin-top: 4rem;
 }
 
 @media (max-width: 768px) {
@@ -147,6 +208,30 @@ small {
     letter-spacing: 1px;
 }
 
+.subHeadline {
+    font-size: 1.6rem;
+    font-weight: 200;
+    line-height: 2rem;
+    letter-spacing: 1px;
+}
+
+.paraText {
+    font-size: 1.4rem;
+    font-weight: 200;
+    line-height: 2rem;
+    letter-spacing: 1.2px;
+    padding: 0 20% 0 0;
+}
+
+.paraPoints {
+    font-size: 1.4rem;
+    font-weight: 200;
+    line-height: 2rem;
+    letter-spacing: 1.2px;
+    color: #000000;
+    padding-bottom: 2.5rem;
+}
+
 .textCenter {
     text-align: center;
 }
@@ -157,4 +242,8 @@ small {
 
 .lightGreytext {
     color: #aaa;
+}
+
+.boldText {
+    font-weight: 700;
 }
