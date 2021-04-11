@@ -35,6 +35,9 @@ body {
 .phoneIcon:hover {
     fill: #303232;
 }
+.phoneIconText {
+    font-size: 1.4rem;
+}
 .phoneIconText:hover {
     color: #303232;
 }
@@ -87,9 +90,6 @@ body {
     z-index: -1000;
 }
 
-.expHeadLine {
-}
-
 .siteEduText {
     font-size: 1.6rem;
     padding: 4rem 30rem;
@@ -97,8 +97,16 @@ body {
     line-height: 3.5rem;
     letter-spacing: 1px;
     font-weight: 200;
-
     background-color: #f9f9f9;
+}
+
+.siteSkillText {
+    font-size: 1.6rem;
+    padding: 4rem 30rem;
+    color: #343434;
+    line-height: 3.5rem;
+    letter-spacing: 1px;
+    font-weight: 200;
 }
 
 .eduItem {
@@ -108,6 +116,15 @@ body {
     background-color: #fff;
     padding: 5px 1rem;
     margin: 1rem 5px;
+    border: 2px solid #aaa;
+}
+
+.toolItem {
+    list-style: none;
+    background-color: #fff;
+    padding: 5px 1rem;
+    margin: 1rem 5px;
+    border: 2px solid #aaa;
 }
 
 .siteExperience1 {
@@ -170,6 +187,7 @@ small {
 
 .skillHeading {
     margin-bottom: 2.5rem;
+    text-decoration: underline;
 }
 
 .skillItem {
